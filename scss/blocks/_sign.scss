@@ -1,0 +1,91 @@
+// sign section start
+.sign-section {
+    padding: 80px 0 84px;
+    background-color: $text-clr;
+}
+.sing__title-wrapper {
+    text-align: center;
+}
+.sign__title {
+    margin-bottom: 14px;
+    padding: 0 45px;
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &::before{
+        content: "";
+        width: 30px;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-color: rgb(236, 236, 237);
+    }
+    &::after{
+        content: "";
+        width: 30px;
+        height: 1px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-color: rgb(236, 236, 237);
+    }
+}
+.sign__strong {
+    display: block;
+    margin-bottom: 25px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sign__form {
+    width: 489px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sign__form-input {
+    width: 350px;
+    padding: 18px 0 18px 40px;
+    background-color: $text-clr;
+    border: 1px solid rgb(47, 48, 62);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.sign__form-btn {
+    width: 129px;
+    padding: 18px 0;
+    background-color: white;
+    border: 1px solid transparent;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    &:hover{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+    }
+}
+// sign section end

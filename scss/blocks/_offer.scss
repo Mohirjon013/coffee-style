@@ -1,0 +1,102 @@
+// offer section start
+.offer-section {
+    padding-bottom: 130px;
+}
+.offer__title-wrapper{
+    text-align: center;
+}
+.offer__title {
+    margin-bottom: 100px;
+    padding: 0 45px;
+    display: inline-block;
+    position: relative;
+    color: $text-clr;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &::before{
+        content: "";
+        width: 30px;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-color: rgb(236, 236, 237);
+    }
+    &::after{
+        content: "";
+        width: 30px;
+        height: 1px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        background-color: rgb(236, 236, 237);
+    }
+}
+.offer__contant-wrapper, .offer__img-list {
+    display: flex;
+    align-items: center;
+    
+}
+.offer__img-list {
+    width: 460px;
+    gap: 20px;
+}
+.offer__img{
+    margin-bottom: 20px;
+}
+.offer__text-wrapper {
+    width: 355px;
+    margin-left: 80px;
+}
+.offer__strong {
+    color: $text-clr;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.offer__subtitle {
+    margin: 14px 0 15px;
+    color: $text-clr;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+.offer__text {
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.offer__btn {
+    width: 173px;
+    padding: 9px 0;
+    margin-top: 38px;
+    background: rgb(29, 31, 46);
+    border: 1px solid transparent;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover{
+        background-color: transparent;
+        color: $text-clr;
+        border: 1px solid $text-clr;
+    }
+}
+// offer section end

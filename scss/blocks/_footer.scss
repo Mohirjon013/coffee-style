@@ -1,0 +1,104 @@
+// footer start
+.site-footer {
+    padding: 100px 0 48px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__contant-wrapper:nth-child(1){
+    width: 258px;
+}
+.footer__contant-wrapper:nth-child(2){
+    width: 146.66px;
+}
+.footer__contant-wrapper:nth-child(3){
+    width: 146.66px;
+}
+.footer__contant-wrapper:nth-child(4){
+    width: 293px;
+}
+.footer__title{
+    
+    color: $text-clr;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.footer__contant-wrapper:nth-child(4) > p{
+    // padding: 22px 0 16px ;
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.footer__contant-wrapper:nth-child(4) > span{
+    display: inline-block;
+    padding-bottom: 55px;
+    color: $text-clr;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.footer__text {
+    padding: 22px 0 81px;
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%; 
+}
+.footer__text2{
+    padding: 22px 0 16px;
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%; 
+}
+.footer__text-by {
+    color: rgba(29, 31, 46, 0.3);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+.footer__strong {
+    display: inline-block;
+    padding-bottom: 23px;
+    color: $text-clr;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-align: left;
+    text-transform: uppercase;
+}
+.footer__link {
+    display: block;
+    color: #61636D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    &:hover{
+        color: $text-clr;
+    }
+}
+.footer__link + .footer__link{
+    margin-top: 10px;
+}
+.footer__strong-by{
+    display: block; 
+    color: rgba(29, 31, 46, 0.3);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+// footer end

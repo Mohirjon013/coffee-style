@@ -1,0 +1,39 @@
+// story section start
+.story-section {
+    padding: 120px 0 100px;
+}
+.story__contant-wrapper {
+    width: 656px;
+    margin: 0 auto;
+    text-align: center;
+}
+.story__title {
+    color: $text-clr;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.story__text {
+    margin: 16px 0 21px;
+    color: rgba(29, 31, 46, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+.story__link {
+    width: 133px;
+    padding-bottom: 3px;
+    color: rgb(162, 95, 75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid transparent;
+    &:hover{
+        border-bottom: 2px solid #ECDFDB;
+    }
+}
+// story section end

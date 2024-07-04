@@ -115,7 +115,7 @@
 
 .hero-section {
   padding: 150px 0;
-  background-image: url(../../images/hero-bg.png);
+  background-image: url(../images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: 1380px 530px;
   background-position: bottom;
@@ -612,7 +612,7 @@
 
 .img-section {
   height: 380px;
-  background-image: url(../../images/bg.png);
+  background-image: url(../images/bg.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
